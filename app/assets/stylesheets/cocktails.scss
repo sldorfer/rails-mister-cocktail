@@ -1,3 +1,47 @@
 // Place all the styles related to the cocktails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+
+h1, a {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  // linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7))
+}
+
+.card-body {
+  // background-color: blue;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(https://source.unsplash.com/random);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+
+
+// .hero-image {
+//   background-image: url("/w3images/photographer.jpg");
+//   background-color: #cccccc;
+//   height: 500px;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   position: relative;
+// }

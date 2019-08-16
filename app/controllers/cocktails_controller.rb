@@ -17,7 +17,6 @@ class CocktailsController < ApplicationController
     @cocktail = Cocktail.new
   end
 
-
   private
 
   def cocktail_params
