@@ -11,7 +11,8 @@
 # Ingredient.create(name: "mint leaves")
 
 require 'open-uri'
-require 'JSON'
+require 'json'
+
 puts "Cleaning ingredients"
 Ingredient.destroy_all
 puts "API call"
